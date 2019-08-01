@@ -1,0 +1,22 @@
+{
+    "name": "graphql-music",
+    "version": "1.0.0",
+    "description": "A music service written in GraphQL!",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon ."
+    },
+    "author": "You!",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.ihiteshkumar.com:nchapman/graphql-music.git"
+    },
+    "dependencies": {
+        "graphql": "^0.13.0",
+        "graphql-yoga": "^1.13.1",
+        "lodash": "4.17.15",
+        "request": "^2.88.0",
+        "request-promise": "^4.2.4"
+    }
+}

@@ -1,0 +1,36 @@
+type Query {
+    artists(name: String!): [Artist]!
+    songs(name: String!): [Song]!
+    books: [Book]!
+    book(id: ID!): Book
+    author(id: ID!): Author
+    authors: [Author]!
+}
+
+type Artist {
+    id: ID
+    name: String
+    url: String
+    genre: String
+}
+type Song {
+    id: ID
+    name: String
+    artistName: String
+    album: String
+    url: String
+}
+
+type Author {
+    name: String
+    id: ID
+    age: Int
+}
+
+type Book {
+    id: ID
+    name: String
+    authorId: ID
+    genre: String
+    author: Author
+}

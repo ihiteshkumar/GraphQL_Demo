@@ -1,0 +1,19 @@
+{
+    "root": true,
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "new-cap": "off",
+        "no-console": "off",
+        "complexity": "off",
+        "space-before-function-paren": [
+            "error",
+            {
+                "anonymous": "never",
+                "named": "never",
+                "asyncArrow": "always"
+            }
+        ]
+    }
+}
